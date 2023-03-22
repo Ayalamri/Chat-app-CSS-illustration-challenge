@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.left,.right{
+    width: 500px;
+    height: 710px;
+}
+.left{
+    background-image:linear-gradient(to bottom,hsl(289, 93%, 67%) 1%,hsl(264, 100%, 61%));
+    border-radius: 0 0 400px 400px;
+    position: absolute;
+    top: 0;
+    left:-70px;
+}
+.right{
+    background-color:hsl(262, 100%, 98%) ;
+    border-radius:400px 400px 0 0;
+    position: absolute;
+    bottom: -100px;
+    right:-170px;
+}
+h1+p{
+    color:hsla(60, 1%, 48%, 0.763);
+    line-height: 1.8em;
+    width: 450px;
+    font-size: 16px;
+}
+h1{
+    color: hsl(271, 36%, 24%);
+    font-weight: 500;
+    font-size: 37px;
+}
+.text{
+    position: relative;
+    top: 160px;
+    right: 380px;
+}
+.phone{
+    width: 250px;
+    height:510px;
+    background-color: white;
+    box-shadow: 1px 1px 50px rgb(194, 191, 191);
+    border-radius: 25px;
+    position: relative;
+    top: 150px;
+    left: 430px;
+}
+.screen{
+    width: 92%;
+    height: 95.5%;
+    background-color:hsl(270, 20%, 96%);
+    border-radius: 17px;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    font-size: 8px;
+}
+.aman{
+    width:21px;
+    height: 21px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 10px;
+    position: relative;
+    left: 14px;
+    top: 3px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.contact{
+    width: 100%;
+    height: 14%;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(289, 93%, 67%));
+    border-radius: 17px 17px 5px 5px;
+}
+.baf{
+    background-color: white;
+    width: 57%;
+    height: 40%;
+    position: relative;
+    left: 50px;
+    top: -8px;
+    border-radius:  0 0 14px 14px;
+}
+.white{
+    color: white;
+}
+.contactman{
+    display: flex;
+    flex-direction:row;
+}
+.rojo3 div{
+    width: 0.5ex;
+    height: 1.5ex;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    left: 15px;
+    top:10px;
+}
+.rojo3 div:nth-child(1){
+    transform: rotate(30deg);
+}
+.rojo3 div:nth-child(2){
+    transform: rotate(150deg);
+    position: relative;
+    top: 8.5px;
+    left: 14.5px;
+}
+.points3{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   left: 100px;
+   color:white;
+   font-size: 15px;
+   line-height: 0.25em;
+   top: 5px;
+}
+.firstmsg{
+    color:hsl(271, 39%, 48%);
+    width: 55%;
+    height: 30px;
+    background-color:hsl(270, 80%, 94%);
+    border-radius: 12px 12px 12px 5px;
+    margin-top: 7px;
+    margin-left: 8px;
+    line-height: 1.5em;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.ff{
+    margin-top:10px;
+}
+.samuel{
+    font-size: 11px;
+    font-weight: 400;
+}
+.violet{
+    color:hsl(270, 85%, 82%);
+}
+img+p{
+    position: relative;
+    left: 22px;
+    top:-4px;
+    line-height: 1.5em;
+}
+.secondmsg{
+    width: 55%;
+    height: 30px;
+    background-color:white;
+    border-radius: 12px 12px 5px 12px;
+    margin-top: 7px;
+    margin-right: 8px;
+    box-shadow: 0px 5px 3px rgb(234, 232, 232);
+    color: rgb(103, 103, 103);
+    line-height: 1.5em;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.can{
+    width:34%;
+    height:17px;
+    color: rgb(103, 103, 103);
+    background-color:white;
+    border-radius: 12px 12px 5px 12px;
+    box-shadow: 0px 5px 3px rgb(234, 232, 232);
+    margin-top: 7px;
+    margin-right: 8px;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.she{
+    color:hsl(271, 39%, 48%);
+    width: 55%;
+    height:40px;
+    background-color:hsl(270, 80%, 94%);
+    border-radius: 12px 12px 12px 5px;
+    margin-top: 14px;
+    margin-left: 8px;
+    line-height: 1.5em;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.price{
+    display: flex;
+    flex-direction:row;
+    color:white;
+    width: 70%;
+    height: 35px;
+    background-image:linear-gradient(to right,hsl(289, 93%, 67%),hsl(264, 100%, 61%));
+    border-radius: 12px 12px 12px 5px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.type{
+    width: 87%;
+    height: 23px;
+    background-color: white;
+    border-radius: 50px;
+    margin:auto;
+    margin-top: 11px;
+    color: black;
+    opacity: 0.7;
+    padding-left: 17px;
+    padding-top: 9px;
+    font-size: 9px;
+}
+
+.price div:nth-child(1){
+    background-color: hsl(289, 93%, 67%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255,0.3);
+    margin:auto;
+    margin-left: 10px;
+}
+.price div:nth-child(2){
+    width:60px;
+    margin-top:13px;
+    margin-left: -15px;
+    opacity: 0.8;
+}
+.price div:nth-child(3){
+    font-size: 13px;
+    font-weight: 500;
+    margin:auto;
+    position: relative;
+    right:-5px;
+}
+.cerclem{
+    width:24px;
+    height:24px;
+    background-color: hsl(270, 54%, 22%);
+    border-radius: 100%;
+    position: relative;
+    left:171px;
+    top:-16px;
+}
+.cerclem div{
+    width: 0.5ex;
+    height: 1.6ex;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    left: 15px;
+    top:10px;
+}
+.cerclem div:nth-child(1){
+    transform: rotate(-40deg);
+    position: relative;
+    top: 6px;
+    left:12px;
+}
+.cerclem div:nth-child(2){
+    transform: rotate(220deg);
+    position: relative;
+    top: 3px;
+    left:12px;
+}
+.type div:nth-child(1){
+    color: rgb(166, 166, 166);
+}
+.dog{
+    margin-top: 14px;
+    text-align: end;
+    margin-right: 8px;
+}
+@media screen and (max-width: 376px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        position: absolute;
+        top: -200px;
+        left:-310px;
+    }
+    .phone{
+        position: relative;
+        top:265px;
+        left: 375px;
+    }
+    .text{
+        position: relative;
+        top: -110px;
+        right: -5px;
+    }
+    h1+p{
+        text-align: center;
+        width: 310px;
+        margin-left: -15px;
+    }
+    .right{
+        background-color: white;
+        position: absolute;
+        bottom:-700px;
+    }
+}
